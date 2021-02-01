@@ -1,0 +1,8 @@
+Project Leader - Trevor Ramsey
+
+
+Group Roles:
+
+Trevor Ramsey: Backend + Group Leader
+Haftamu_G: Front end
+Daniel Cohen: User Roles backend + Login/Registration

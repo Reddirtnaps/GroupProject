@@ -47,14 +47,11 @@
 </section>
 
 
-<section>
-<img src="" class="rounded mx-auto d-block" alt="">
-</section>
+<section class ="bachground">
+<div>
+<img alt="" src="pictures/background_image.PNG" width="1500" height="800">
 
-
-
-<section>
-<img src="" class="rounded mx-auto d-block" alt="">
+</div>
 </section>
 
 
@@ -95,29 +92,52 @@
     </div>
   </section>
 
-<section class = "container-fluid">
+
+
+
+
+
+
+<section class ="member">
+<div class ="message">
+	<h2> Annual Membership Privileges</h2>
+	<div>
+	<ul>
+	<li><p>  Unlimited daytime admission* to the Palm Beach Zoo and Conservation Society throughout the year for all of those who qualify under your membership.</p></li>
+	<li><p>  10% discount in the Zoo gift shops and concessions areas including the Tropics Cafe.</p></li>
+	<li><p>  Invitations to Members Only events and exhibit openings.</p></li>
+	<li><p>  Opportunities to assist and support the Palm Beach Zoo in worldwide and local conservation efforts</p></li>
+	</ul>
+	</div>
+</div>
+</section>
+
+
+<section class = "sponsors">
+<h3> Our Valued Sponsors</h3>
 <div class="row">
 	<div class="col-lg-2">
-     <a class="pic" href=""><img src="pictures/pic_1.PNG" alt="" width="200" height="150"></a>
+     <a class="pic" href=""><img src="pictures/spon1.PNG" alt="" width="200" height="150"></a>
      </div>
      <div class="col-lg-2">
-     <a class="pic" href=""><img src="pictures/pict_2.PNG" alt="" width="200" height="150"></a>
+     <a class="pic" href=""><img src="pictures/spon2.PNG" alt="" width="200" height="150"></a>
      </div>
      <div class="col-lg-2">
-     <a class="pic" href=""><img src="pictures/pic_3.PNG" alt="" width="200" height="150"></a>
+     <a class="pic" href=""><img src="pictures/spon3.PNG" alt="" width="200" height="150"></a>
      </div>
       <div class="col-lg-2">
-     <a class="pic" href=""><img src="pictures/pic_4.PNG" alt="" width="200" height="150"></a>
+     <a class="pic" href=""><img src="pictures/spon4.PNG" alt="" width="200" height="150"></a>
      </div>
        <div class="col-lg-2">
-     <a class="pic" href=""><img src="pictures/pic_5.jpg" alt="" width="200" height="150"></a>
+     <a class="pic" href=""><img src="pictures/spon5.PNG" alt="" width="200" height="150"></a>
      </div>
        <div class="col-lg-2">
-     <a class="pic" href=""><img src="pictures/pic_6.jpg" alt="" width="200" height="150"></a>
+     <a class="pic" href=""><img src="pictures/spon6.PNG" alt="" width="200" height="150"></a>
      </div>
 </div>
 
 </section>
+
 
 
 <section class="container">

@@ -6,11 +6,6 @@
 
 }
 
-.message{
-	
-	margin-top: 5rem;
-	
-}
 
 
 .row{
@@ -35,11 +30,22 @@ text-align:center;
 
 
 h5{
-	margin-top: 3rem;
 text-align:center;
 }
 
 
+.message{
+	
+	margin-top: 5rem;
+	margin-top: 30rem;
+	background-color:#546323
+	
+}
+
+.member{
+	margin-top: 0rem;
+	background-color:#546323
+}
 
 .pic{
  padding-top: 50px;
@@ -51,9 +57,10 @@ text-align:center;
   
 }
 
-.container-fluid{
+.sponsors{
 	
-	 margin-top: 40rem;
+	 background-color: #f7f6e9;
+	  margin-top: 5rem;
 }
 
 .icons{
@@ -62,28 +69,27 @@ text-align:center;
 	margin-left: 30rem;
 	
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.bachground{
+	margin-bottom: 5rem;
 }
 
 body{
   margin: 0;
   padding: 0;
-  background: #f0f0f0;
+  background-size: auto;
 }
 .slidershow{
   width: 700px;
   height: 400px;
   overflow: hidden;
+  margin-top: 5rem;
 }
 .middle{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+ 
 }
 .navigation{
   position: absolute;

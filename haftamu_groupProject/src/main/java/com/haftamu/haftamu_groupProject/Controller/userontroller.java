@@ -11,7 +11,6 @@ public class userontroller {
 	
 	@GetMapping("/home")
 	public String homePage() {
-		System.out.println("hello there");
 		return"home.jsp";
 	}
 	

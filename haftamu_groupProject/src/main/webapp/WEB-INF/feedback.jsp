@@ -14,7 +14,7 @@
  	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">		
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="feedback.css">
+	<link rel="stylesheet" href="css/feedback.css">
 
 </head>
 
@@ -23,7 +23,7 @@
 <div class="container">
 <form action="https://formspree.io/f/xgepdqwv" method="POST" id="my-form">
 <div class="view">
-	<img src="feedbackImage.png">
+	<img src="pictures/feedbackImage.png">
 </div>
 
 
@@ -78,7 +78,7 @@
 </div>
  <div id="status"></div>
 </section>
-<script src="feedback.js"></script>
+<script src="js/feedback.js"></script>
 
 </body>
 </html>  

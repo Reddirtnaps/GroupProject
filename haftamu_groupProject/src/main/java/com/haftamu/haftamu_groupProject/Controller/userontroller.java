@@ -26,5 +26,9 @@ public class userontroller {
 		
 		return "redirect:/feedback";
 }
-	
+	@GetMapping("/aboutus")
+	public String aboutUs() {
+
+		return "aboutus.jsp";
+}
 }

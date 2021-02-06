@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<title>Buy Tickets</title>
+</head>
+<body>
+	<h1>Purchase Your Tickets Here</h1>
+	<p>Adult tickets are $10 and any child under the age of 12 are $6.</p>
+    <p>Please select the amount of tickets you would like to purchase.</p>
+    <div class="cart">
+        <label for="adult" >Adult</label>
+	    <input  class="adult" name="adult" type="number" min="0" onchange="adultUpdate(this)">
+        <label for="child" >Child</label>
+        <input class="child" name="child" type="number" min="0" onchange="childUpdate(this)">
+    </div>
+    <p id="cartTotal"></p>
+	<div id="smart-button-container">
+		<div style="text-align: center;">
+			<div id="paypal-button-container">
+			</div>
+		</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

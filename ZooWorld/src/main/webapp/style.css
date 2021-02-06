@@ -1,0 +1,10 @@
+@charset "UTF-8";
+#smart-button-container{
+	display:flex;
+	justify-content:center;
+}
+#paypal-button-container{
+	width:30px;
+	display:flex;
+	justify-content:center;
+}

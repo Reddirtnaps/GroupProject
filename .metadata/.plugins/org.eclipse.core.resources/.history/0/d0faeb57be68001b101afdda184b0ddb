@@ -1,0 +1,10 @@
+@charset "UTF-8";
+h1{
+	color: red;
+}
+#paypal-button-container{
+	width:30px;
+	display:flex;
+	justify-content:center;
+	
+}

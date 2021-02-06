@@ -1,0 +1,4 @@
+@charset "UTF-8";
+#smart-button-container{
+	width:30px;
+}

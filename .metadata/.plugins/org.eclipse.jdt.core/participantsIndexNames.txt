@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-/Users/Trevor/Desktop/GroupProject/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2592458978.index
-/ZooWorld/src/main/java

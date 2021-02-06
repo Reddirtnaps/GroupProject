@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+/Users/Trevor/Desktop/GroupProject/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1793509406.index
-3329228299.index
-2592458978.index
-3576401515.index
-3773775676.index
-3763831062.index
-3436100984.index

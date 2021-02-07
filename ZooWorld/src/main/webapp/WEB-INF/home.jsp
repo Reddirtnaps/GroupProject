@@ -34,6 +34,9 @@
 			 <a class= "nav-link text-secondary" href = "/aboutus">About</a>
 		 </li>
 		 <li class="nav-item">
+			 <a class= "nav-link text-secondary" href = "/exhibits">Exhibits</a>
+		 </li>
+		 <li class="nav-item">
 			 <a class= "nav-link text-secondary" href = "/login">Login</a>
 		 </li>
 		 <li class="nav-item">

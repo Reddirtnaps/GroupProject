@@ -27,6 +27,10 @@ public class UserController {
 	@Autowired
 	private UserValidator uValidator;
 	
+	@GetMapping("/")
+	public String redirHome() {
+		return "redirect:/home";
+	}
 	
 	@GetMapping("/userlogin")
 	public String index(@ModelAttribute("user") User user) {
@@ -106,6 +110,14 @@ public class UserController {
 	public String logout(HttpSession session) {
 		session.invalidate();
 		return "redirect:/userlogin";
+	}
+	@GetMapping("/buyticket")
+	public String buyTicket(){
+		return "ticket.jsp";
+	}
+	@GetMapping("/confirm")
+	public String confim() {
+		return "confirm.jsp";
 	}
 	
 }

@@ -19,7 +19,6 @@ public class Exhibit {
 	private String zooKeeper;
 
 	
-	
 	//RELATIONSHIPS?? I don't remember
 	
 	

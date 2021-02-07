@@ -28,6 +28,9 @@
 		<li class="nav-item">
 			 <a class= "nav-link text-secondary" href = "/home">Home</a>
 		 </li>
+		<li class="nav-item">
+			 <a class= "nav-link text-secondary" href = "exhibits">Exhibits</a>
+		 </li>
 	
 	</ul>
 	</div>

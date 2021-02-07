@@ -30,12 +30,12 @@ public class ExhibitService {
 	}
 	
 	//Edit exhibits
-	public Exhibit updateTask(Exhibit exhibit) {
+	public Exhibit updateExhibit(Exhibit exhibit) {
 		return this.eRepo.save(exhibit);
 	}
 	
 	//Delete exhibits
-	public void delete(Long id) {
+	public void deleteExhibit(Long id) {
 		this.eRepo.deleteById(id);
 	}
 	

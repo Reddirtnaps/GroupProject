@@ -12,10 +12,13 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name="users")
 public class User {
+	
+	//MEMBER VARIABLES
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
@@ -25,13 +28,23 @@ public class User {
 	private String lastName;
 	@Email
 	private String email;
+	@Size(min=4)
 	private String password;
 	@Transient
 	private String conPassword;
+	
+	//FOR ADMIN ONLY
+	private int isAdmin;
+	//private boolean isAdmin = false;
+	
+	
 	@OneToMany(mappedBy="attendee",fetch=FetchType.LAZY)
 	private List<Ticket> tickets;
 	@OneToMany(mappedBy="payer",fetch=FetchType.LAZY)
 	private List<Payment> payments;
+	
+	
+	//CONSTRUCTORS & GETTERS/SETTERS
 	public User() {
 		
 	}
@@ -99,4 +112,20 @@ public class User {
 	public void setPayments(List<Payment> payments) {
 		this.payments = payments;
 	}
+
+	public int getIsAdmin() {
+		return isAdmin;
+	}
+
+	public void setIsAdmin(int isAdmin) {
+		this.isAdmin = isAdmin;
+	}
+
+//	public boolean isAdmin() {
+//		return isAdmin;
+//	}
+//
+//	public void setAdmin(boolean isAdmin) {
+//		this.isAdmin = isAdmin;
+//	}
 }

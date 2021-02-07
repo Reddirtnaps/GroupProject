@@ -162,5 +162,18 @@ input[name="r"]{
 	100% { transform: translateX(-100vw);}
 	
 }
+#smart-button-container{
+	display: flex;
+	justify-content: center;
+}
+#paypal-button-container{
+	width:50px;
+	display: flex;
+	justify-content: center;
+	
+}
+#return-home{
+	margin-bottom:20px;
+}
 
 

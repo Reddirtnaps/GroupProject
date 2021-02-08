@@ -62,10 +62,10 @@ public class ExhibitController {
 		}
 		//exhibit.setCreator(this.uService.getCurrentUser().getFirstName());
 		this.eService.create(exhibit);
-		return "redirect:/exhibits";
+		return "redirect:/exhibits/admin";
 	}
 	
-	@GetMapping("/edit/{id}")
+	@GetMapping("edit/{id}")
 	public String editTask(@PathVariable("id") Long id, Model viewModel, @ModelAttribute("exhibit") Exhibit exhibit) {
 		viewModel.addAttribute("exhibit", eService.getById(id));
 		viewModel.addAttribute("allUsers", this.uService.getAllUsers());
@@ -78,13 +78,13 @@ public class ExhibitController {
 			return "editExhibit.jsp";
 		}
 		this.eService.updateExhibit(exhibit);
-		return "redirect:/exhibits";
+		return "redirect:/exhibits/admin";
 	}
 	
 	@GetMapping("delete/{id}")
 	public String deleteExhibit(@PathVariable("id") Long id) {
 		this.eService.deleteExhibit(id);
-		return "redirect:/exhibits";
+		return "redirect:/exhibits/admin";
 	}
 	
 	

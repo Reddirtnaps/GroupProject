@@ -34,9 +34,6 @@
 			 <a class= "nav-link text-secondary" href = "/exhibits/admin">Update Exhibits</a>
 		 </li>
 		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/buyticket">BuyTickets</a>
-		 </li>	
-		 <li class="nav-item">
 			 <a class= "nav-link text-secondary" href = "/logout">Logout</a>
 		 </li> 
 	</ul>

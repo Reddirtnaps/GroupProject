@@ -16,7 +16,7 @@
 				<p>${error}</p>
 			</c:forEach>
 			<hr>
-			<form:form method="POST" action="/exhibits/edit/admin/${exhibit.id }" modelAttribute="exhibit">
+			<form:form method="POST" action="/exhibits/edit/${exhibit.id }" modelAttribute="exhibit">
 				<div class="form-group">
 					<form:label path="animals"> Animals Featured: 
 					<form:errors path="animals"/>

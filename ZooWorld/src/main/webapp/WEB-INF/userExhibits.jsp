@@ -19,10 +19,16 @@
    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 	<ul class="navbar-nav ml-auto">
 		<li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/adminhome">Home</a>
+			 <a class= "nav-link text-secondary" href = "/home">Home</a>
 		 </li>
 		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/logout">Logout</a>
+			 <a class= "nav-link text-secondary" href = "/aboutus">About</a>
+		 </li>
+		 <li class="nav-item">
+			 <a class= "nav-link text-secondary" href = "/buyticket">BuyTickets</a>
+		 </li>
+		 <li class="nav-item">
+			 <a class= "nav-link text-secondary" href = "/adminlogin">Login</a>
 		 </li>
 	</ul>
 	</div>
@@ -42,15 +48,12 @@
 				<c:forEach items="${allExhibits}" var="exhibit">
 				<tr>
 					<td>${exhibit.id}</td>
-					<td><a href="/exhibits/edit/${exhibit.id}">${exhibit.animals}</a></td>
+					<td>${exhibit.animals}</td>
 					<td>${exhibit.description}</td>
 					<td>${exhibit.zooKeeper}</td>
 				</c:forEach>
 			</tbody>
 		</table>
-	</div>
-	<div class="text-center">
-	<a style="padding: 2px 6px; border: 1px solid gray; border-radius: 5px; text-decoration: none; color: black;" href="/exhibits/new" class="btn btn-primary">Create a new exhibit</a>
 	</div>
 </body>
 </html>

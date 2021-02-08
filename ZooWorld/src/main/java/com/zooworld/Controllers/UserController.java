@@ -109,7 +109,7 @@ public class UserController {
 	@GetMapping("/logout")
 	public String logout(HttpSession session) {
 		session.invalidate();
-		return "redirect:/userlogin";
+		return "redirect:/";
 	}
 	@GetMapping("/buyticket")
 	public String buyTicket(){

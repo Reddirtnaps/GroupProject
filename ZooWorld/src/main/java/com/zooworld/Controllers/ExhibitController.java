@@ -2,6 +2,7 @@ package com.zooworld.Controllers;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.zooworld.Models.Exhibit;
+import com.zooworld.Models.User;
 import com.zooworld.Services.ExhibitService;
 import com.zooworld.Services.UserService;
 
@@ -29,18 +31,20 @@ public class ExhibitController {
 	@Autowired 
 	private UserService uService;
 	
-	
-//	@GetMapping("/exhibits")
-//	public String viewExhibits() {
-//		return "exhibits.jsp";
-//	}
-	
 	@GetMapping("")
-	private String tasks(Model viewModel, HttpSession session) {
+	private String userExhibits(Model viewModel, User user, HttpSession session,  HttpServletRequest request) {
+		List<Exhibit> allExhibits = this.eService.getAllExhibits();	
+		viewModel.addAttribute("allExhibits", allExhibits);
+		return "userExhibits.jsp";
+	}
+	
+	@GetMapping("/admin")
+	private String adminExhibits(Model viewModel, User user, HttpSession session,  HttpServletRequest request) {
 		List<Exhibit> allExhibits = this.eService.getAllExhibits();	
 		viewModel.addAttribute("allExhibits", allExhibits);
 		return "exhibits.jsp";
 	}
+		
 	
 	//Why @ModelAttribute: It holds our info, it also let's us connect the blank info from the  java bean to the front-end form
 	@GetMapping("/new")

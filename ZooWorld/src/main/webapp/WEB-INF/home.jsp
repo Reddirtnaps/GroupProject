@@ -37,17 +37,11 @@
 			 <a class= "nav-link text-secondary" href = "/exhibits">Exhibits</a>
 		 </li>
 		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/login">Login</a>
-		 </li>
-		 <li class="nav-item">
 			 <a class= "nav-link text-secondary" href = "/buyticket">BuyTickets</a>
-		 </li>
+		 </li>	
 		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/perks">Perks</a>
-		 </li>		 
-		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/logout">Logout</a>
-		 </li>
+			 <a class= "nav-link text-secondary" href = "/adminlogin">Admin Login</a>
+		 </li> 
 	</ul>
 	</div>
 </nav>
@@ -158,7 +152,6 @@
 
 
 </form:form>
-
 
 </body>
 </html>

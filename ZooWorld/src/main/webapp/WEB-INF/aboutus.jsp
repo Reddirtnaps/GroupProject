@@ -31,33 +31,35 @@
 		<li class="nav-item">
 			 <a class= "nav-link text-secondary" href = "exhibits">Exhibits</a>
 		 </li>
-	
+		 <li class="nav-item">
+			 <a class= "nav-link text-secondary" href = "/buyticket">BuyTickets</a>
+		 </li>
+		 <li class="nav-item">
+			 <a class= "nav-link text-secondary" href = "/adminlogin">Admin Login</a>
+		 </li>	 
 	</ul>
 	</div>
 </nav>
 
 </section>
 <div class="about-section">
-        <div class="inner-container">
-            <h1>About Us</h1>
-            <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
+        <div class="inner-container text-center">
+            <h2>About Us</h2>
+            <p class="text text-center">
+            Zoo World! The wonderful outdoors brought to your neighborhood! Come visit our serene exhibits of numerous animals!
             </p>
         </div>
     </div>
     
  <section class="container">
-<p>hdd@zooworld.org</p>
-<div class="icons">
-
+<p>contact@zooworld.org</p>
+<div class="icons text-center">
      <a class="center" href=""><img src="pictures/instagram.PNG" alt="" width="20" height="30"></a>
      <a class="center" href=""><img src="pictures/facebook.PNG" alt="" width="20" height="30"></a>
      <a class="center" href=""><img src="pictures/tweeter.PNG" alt="" width="20" height="30"></a>
      <a class="center" href=""><img src="pictures/google.PNG" alt="" width="20" height="30"></a>
 </div>
-
 </section>
-    </form:form >
-    
+    </form:form >    
 </body>
 </html>

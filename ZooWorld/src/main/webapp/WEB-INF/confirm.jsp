@@ -20,24 +20,6 @@
   </button>
    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 	<ul class="navbar-nav ml-auto">
-		<li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/home">Home</a>
-		 </li>
-		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/aboutus">About</a>
-		 </li>
-		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/login">Login</a>
-		 </li>
-		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/buyticket">BuyTickets</a>
-		 </li>
-		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/perks">Perks</a>
-		 </li>		 
-		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/logout">Logout</a>
-		 </li>
 	</ul>
 	</div>
 	</nav>

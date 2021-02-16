@@ -16,7 +16,7 @@
 <body>
 <form:form action="/aboutus" method="POST">
 <section id="title">
-  <h4 class="text-center"> Welcome To Zoo World</h4>
+  <h1 class="text-center"> Welcome To Zoo World</h1>
 <nav class = "navbar navbar-expand-lg navbar-light">
 
   <a class="nav-brand" href=""><img src="pictures/pic_10.PNG" alt="" width="150" height="80"></a>
@@ -44,10 +44,9 @@
 </section>
 <div class="about-section">
         <div class="inner-container text-center">
-            <h2>About Us</h2>
-            <p class="text text-center">
-            Zoo World! The wonderful outdoors brought to your neighborhood! Come visit our serene exhibits of numerous animals!
-            </p>
+            <h1 class="aboutHeading">About Us</h1>
+            <h4>Zoo World!</h4>
+            <p class="text text-center">The wonderful outdoors brought to your neighborhood! Come visit our serene exhibits of numerous animals!</p>
         </div>
     </div>
     

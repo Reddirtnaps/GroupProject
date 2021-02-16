@@ -16,10 +16,18 @@ body{
 
 .about-section{
     background: url(food2.jpg) no-repeat left;
-    background-size: 55%;
-    background-color: #fdfdfd;
+    background-size: 70%;
+    background-color: #fdfdfd;    
+    display: flex;
+    justify-content: center;
     overflow: hidden;
     padding: 100px 0;
+}
+
+.aboutHeading {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }
 
 .inner-container{
@@ -36,11 +44,11 @@ body{
 }
 
 .text{
-    font-size: 13px;
+    font-size: 15px;
     color: #545454;
-    line-height: 30px;
+    line-height: 2;
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .skills{
@@ -90,10 +98,13 @@ body{
 }
 
 .icons{
-	
-	margin-bottom: 3rem;
-	margin-left: 30rem;
+	display: flex;
+	justify-content: center;
 }
+
+  .icons .center{
+  margin: 5px;
+  }
 
 p{
 	
@@ -102,6 +113,6 @@ text-align:center;
 
 
 h5{
-	margin-top: 3rem;
-text-align:center;
+  margin-top: 3rem;
+  text-align:center;
 }

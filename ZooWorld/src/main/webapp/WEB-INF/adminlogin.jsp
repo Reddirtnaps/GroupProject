@@ -11,39 +11,8 @@
 </head>
 <body>
 	<div class="container">
-		<h1>Welcome</h1>
-		<hr>
-		<h3>Welcome ${user.firstName}. Please Login or Register!</h3>	
-		<div class="row">
-			<div class="col">
-				<h3>Register</h3>
-				<form:form method="POST" action="/register" modelAttribute="user">
-					<div class="form-group">
-						<form:label path="firstName"> First Name: 
-							<form:errors path="firstName"/>
-							<form:input path="firstName"/>
-						</form:label>
-						<form:label path="lastName"> Last Name: 
-							<form:errors path="lastName"/>
-							<form:input path="lastName"/>
-						</form:label>
-						<form:label path="email"> Email:
-							<form:errors path="email"/>
-							<form:input path="email"/>
-						</form:label>
-						<form:label path="password"> Password:
-							<form:errors path="password"/>
-							<form:input type="password" path="password"/>
-						</form:label>
-						<form:label path="conPassword"> Confirm Password:
-							<form:errors path="conPassword"/>
-							<form:input type="password" path="conPassword"/>
-						</form:label>
-						<form:hidden path="isAdmin" value="1"></form:hidden>
-					</div>
-			<button class="btn btn-dark">Register User</button>
-		</form:form>
-			</div>
+		<h1>Welcome Admin</h1>
+		<hr>	
 			<div class="row">
 				<div class="col">
 					<h3>Login</h3>
@@ -62,6 +31,5 @@
 				</div>
 			</div>	
 		</div>
-	</div>
 </body>
 </html>

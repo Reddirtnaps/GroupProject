@@ -40,13 +40,13 @@ text-align:center;
 	
 	margin-top: 5rem;
 	margin-top: 5rem;
-	background-color:#546323
-	
+	background-color:#546323;
+	padding-bottom: 10px;
 }
 
 .member{
 	margin-top: 0rem;
-	background-color:#546323
+	background-color:#546323;
 }
 
 .pic{
@@ -77,27 +77,39 @@ h4{
 	
 }
 .background{
-	margin-bottom: 0rem;
+	margin-left: 100px;
+	margin-bottom: 0px;
+	position: relative;
+	justify-content: center;
+	overflow: hidden;
 }
 
+.backgroundTwo{
+	display:flex;
+	justify-content: center;
+}
+  
+  
 .nav-link text-secondar{
 	color: blue;
 }
 
 .slidershow{
-  width: 500px;
+	
+  width: 800px;
   height: 900px;
   overflow: hidden;
   margin-top: 23.5rem;
   margin-left: 30.5rem;
 }
+
 .middle{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
- 
 }
+
 .navigation{
   position: absolute;
   bottom: 20px;
@@ -174,6 +186,27 @@ input[name="r"]{
 }
 #return-home{
 	margin-bottom:20px;
+}
+
+.slider-container {
+	width: 800px;
+	height: 600px;
+}
+
+.image-container {
+	width: 2400px;
+	height: 600px;
+	position: relative;
+	transition: left 2s;
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: left 2s;
+}
+
+.slider-image {
+	float: left;
+	margin: 0px;
+	padding: 0px;
 }
 
 

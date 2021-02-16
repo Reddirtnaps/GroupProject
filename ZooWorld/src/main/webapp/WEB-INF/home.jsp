@@ -48,49 +48,9 @@
 
 </section>
 
-
 <section class ="background">
-<img alt="" src="pictures/background_image.PNG" width="1500" height="900">
+		<img alt="img1" src="pictures/pic_7.jpg" width="95%" height="900">
 </section>
-
-
-
-<section>
-    <div class="slidershow middle">
-
-      <div class="slides">
-        <input type="radio" name="r" id="r1" checked>
-        <input type="radio" name="r" id="r2">
-        <input type="radio" name="r" id="r3">
-        <input type="radio" name="r" id="r4">
-        <input type="radio" name="r" id="r5">
-        <div class="slide s1">
-          <img src="pictures/pic_1.PNG" alt="">
-        </div>
-        <div class="slide">
-          <img src="pictures/pict_2.PNG" alt="">
-        </div>
-        <div class="slide">
-          <img src="pictures/pic_6.jpg" alt="">
-        </div>
-        <div class="slide">
-          <img src="pictures/pic_4.PNG" alt="">
-        </div>
-        <div class="slide">
-          <img src="pictures/pic_5.jpg" alt="">
-        </div>
-      </div>
-
-      <div class="navigation">
-        <label for="r1" class="bar"></label>
-        <label for="r2" class="bar"></label>
-        <label for="r3" class="bar"></label>
-        <label for="r4" class="bar"></label>
-        <label for="r5" class="bar"></label>
-      </div>
-    </div>
-  </section>
-
 
 
 <section class ="member">
@@ -106,9 +66,6 @@
 	</div>
 </div>
 </section>
-
-
-
 
 
 <section class = "sponsors">
@@ -140,8 +97,8 @@
 
 <section class="container">
 <h5> Zoo World Organization</h5>
-<p> ddh@zooworld.org </p>
-<div class="icons">
+
+<p> contact@zooworld.org </p><div class="icons">
      <a class="center" href=""><img src="pictures/instagram.PNG" alt="" width="20" height="30"></a>
      <a class="center" href=""><img src="pictures/facebook.PNG" alt="" width="20" height="30"></a>
      <a class="center" href=""><img src="pictures/tweeter.PNG" alt="" width="20" height="30"></a>

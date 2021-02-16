@@ -28,7 +28,7 @@
 			 <a class= "nav-link text-secondary" href = "/buyticket">BuyTickets</a>
 		 </li>
 		 <li class="nav-item">
-			 <a class= "nav-link text-secondary" href = "/adminlogin">Login</a>
+			 <a class= "nav-link text-secondary" href = "/adminlogin">Admin Login</a>
 		 </li>
 	</ul>
 	</div>
